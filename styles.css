@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5dc; /* Warna krim */
+    color: #4d2c17; /* Warna coklat tua */
+}
+
+header {
+    background: linear-gradient(to right, #8B4513, #D2691E); /* Coklat gelap ke coklat terang */
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff; /* Putih */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #8B4513; /* Coklat */
+    margin-top: 30px;
+}
+
+.essay {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    margin-top: 40px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+}
+
+.artistic-elements {
+    background-color: #fffaf0; /* Warna cream */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.art-box {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.art-box i {
+    font-size: 3em;
+    color: #8B4513; /* Coklat */
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50; /* Warna gelap */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
